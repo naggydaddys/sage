@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Sage Coffeehouse and Tea Garden</title>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<link href="CSS/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="nivo/nivo-slider.css" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nivoslider/3.2/jquery.nivo.slider.js" type="text/javascript"></script>
+    
+    <link rel="stylesheet" href="nivo/themes/default/default.css" type="text/css" />
+    <script type="text/javascript">
+        $(window).load(function() {
+//              <!--step 8 - remove this line then paste the play with setting section below -->
+//                  $('#slider').nivoSlider();
+            $('#slider').nivoSlider({
+                effect: 'fade',                 // Specify sets like: 'fold,fade,sliceDown'
+                animSpeed: 500,                 // Slide transition speed
+                pauseTime: 10000,                 // How long each slide will show
+                startSlide: 0,                     // Set starting Slide (0 index)
+                directionNav: true,             // Next & Prev navigation
+                controlNav: true,                 // 1,2,3... navigation
+                controlNavThumbs: false,         // Use thumbnails for Control Nav
+                pauseOnHover: true,             // Stop animation while hovering
+                manualAdvance: false,             // Force manual transitions
+                prevText: 'Prev',                 // Prev directionNav text
+                nextText: 'Next',                 // Next directionNav text
+                randomStart: false,             // Start on a random slide
+                beforeChange: function(){},     // Triggers before a slide transition
+                afterChange: function(){},         // Triggers after a slide transition
+                slideshowEnd: function(){},     // Triggers after all slides have been shown
+                lastSlide: function(){},         // Triggers when last slide is shown
+                afterLoad: function(){}         // Triggers when slider has loaded
+});
+            $('#slider2').nivoSlider({
+                effect: 'fade',                 // Specify sets like: 'fold,fade,sliceDown'
+                animSpeed: 500,                 // Slide transition speed
+                pauseTime: 10000,                 // How long each slide will show
+                startSlide: 0,                     // Set starting Slide (0 index)
+                directionNav: true,             // Next & Prev navigation
+                controlNav: true,                 // 1,2,3... navigation
+                controlNavThumbs: false,         // Use thumbnails for Control Nav
+                pauseOnHover: true,             // Stop animation while hovering
+                manualAdvance: false,             // Force manual transitions
+                prevText: 'Prev',                 // Prev directionNav text
+                nextText: 'Next',                 // Next directionNav text
+                randomStart: false,             // Start on a random slide
+                beforeChange: function(){},     // Triggers before a slide transition
+                afterChange: function(){},         // Triggers after a slide transition
+                slideshowEnd: function(){},     // Triggers after all slides have been shown
+                lastSlide: function(){},         // Triggers when last slide is shown
+                afterLoad: function(){}         // Triggers when slider has loaded
+});
+            $('#n1').click(function(){
+				$('body').animate({ scrollTop: $("#Home").offset().top }, 1000);
+			 });
+
+			$('#n2').click(function(){
+				$('body').animate({ scrollTop: $("#About").offset().top }, 1000);
+			 });
+
+			$('#n3').click(function(){
+				$('body').animate({ scrollTop: $("#Menu").offset().top }, 1000);
+			 });
+	 
+			$('#n4').click(function(){
+				$('body').animate({ scrollTop: $("#Art").offset().top }, 1000);
+			 });
+            
+            $('#n5').click(function(){
+				$('body').animate({ scrollTop: $("#Parties").offset().top }, 1000);
+			 });
+            
+            $('#n6').click(function(){
+				$('body').animate({ scrollTop: $("#Contact").offset().top }, 1000);
+			 });  
+        });
+        
+</script>
+</head>
+
+<body>
+    <div id="navcontainer"></div>
+    <div id="container">
+        <div id="logo"></div>
+        <div id="Sage"><h1>SAGE</h1></div>
+        <nav>
+            <ul id="nav1">
+                <li id="n1"><img src="CSS/images/a1.png" height="42" width="42"
+                                 onmouseover="this.src='CSS/images/alt1.png'"
+                                 onmouseout="this.src='CSS/images/a1.png'"></li>
+                <li id="n2"><img src="CSS/images/a2.png" height="42" width="42"
+                                 onmouseover="this.src='CSS/images/alt2.png'"
+                                 onmouseout="this.src='CSS/images/a2.png'"></li>
+                <li id="n3"><img src="CSS/images/a3.png" height="42" width="42"
+                                 onmouseover="this.src='CSS/images/alt3.png'"
+                                 onmouseout="this.src='CSS/images/a3.png'"></li>
+                <li id="n4"><img src="CSS/images/a4.png" height="42" width="42"
+                                 onmouseover="this.src='CSS/images/alt4.png'"
+                                 onmouseout="this.src='CSS/images/a4.png'"></li>
+                <li id="n5"><img src="CSS/images/a5.png" height="42" width="42"
+                                 onmouseover="this.src='CSS/images/alt5.png'"
+                                 onmouseout="this.src='CSS/images/a5.png'"></li>
+                <li id="n6"><img src="CSS/images/a6.png" height="42" width="42"
+                                 onmouseover="this.src='CSS/images/alt6.png'"
+                                 onmouseout="this.src='CSS/images/a6.png'"></li>
+            </ul>                      
+        </nav>
+        <div id="Home">
+            <div id="homecontent">
+                <h1 id="p1">Gourmet Coffees &amp; Teas <br>* Fresh Juice * Smoothies * Breakfast * Lunch * <br> Catering</p>
+                <h2 id="p2">26 N Centre St, Pottsville PA <br></p>
+                <h2 id="p2">Mon-Fri <br>7:00 am-3:00 pm</p>
+            </div>
+        </div>
+        <div id="About">
+            <div id="aboutcontent">
+                <h1>About<br><br></h1>
+                <p>SAGE is a Coffeehouse and Tea Garden that has been in historic downtown Pottsville, PA for over 10 years. We are proud of the fact that we have never raised the price of our coffee since the day we opened!<br><br> SAGE is also available for catering your special event and hosts Children's Tea Parties on the weekend!</p>
+            </div>
+        </div>
+        <div id="Menu">
+            <div id="menuslider"class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="CSS/images/m1.jpg" />
+                <img src="CSS/images/m2.jpg" />
+                <img src="CSS/images/m3.jpg" />
+                <img src="CSS/images/m4.jpg" />
+                <img src="CSS/images/m5.jpg" />
+                <img src="CSS/images/m6.jpg" />
+                <img src="CSS/images/m7.jpg" />
+            </div>
+        </div>
+            <div id="menuslider2"class="slider-wrapper theme-default">
+            <div id="slider2" class="nivoSlider">
+                <img src="CSS/images/b1.jpg" />
+                <img src="CSS/images/b2.jpg" />
+            </div>
+        </div> 
+        </div>
+        <div id="Art">
+            <div id="artcontent">
+                <h1>Art<br><br></h1>
+                <p>SAGE is proud to support the local artist community. Since opening, the walls have always featured local art and multiple 'Artist Openings' are held thru the year showcasing new art on display and a chance to meet the artist. See our contact page for more info!</p>
+            </div>    
+        </div>
+        <div id="Parties">
+            <div id="partiescontent">
+                <h1>Dress-Up Tea Parties<br><br></h1>
+                <p>Celebrate a Birthday, Special Occasion, Good Report Card or just a FUN Day!<br><br>
+
+Each child receives finger sandwiches, snacks, celery &amp; carrot sticks, cake, and beverages!<br><br>
+
+We provide all of the dress-up clothing including dresses, shoes, jewelry, hats and more. We also paint fingernails!<br><br>
+
+Parties are 2 hours long and cost $12.00 per child. Min of 10 children. Dates &amp; times are filling quickly, Reserve yours today!</p>
+            </div>
+        </div>
+        <div id="Contact">
+            <div id="contactcontent">
+                <p>If  you're interested in hosting an event at SAGE, having SAGE cater your event, booking a tea party, having your art featured at SAGE, or if you have any questions give us a call, send us an email, or stop by!<br><br>
+
+    Phone: (570) 624-7390<br><br>
+
+    Email: jennindy@verizon.net<br><br>
+
+    Address: 26 N Centre St, Pottsville PA<br><br>
+
+    You can also follow us on Facebook! </p>
+            </div> 
+            <div id="facebook">
+                <a href="https://www.facebook.com/SageCoffee/">
+                <img src="CSS/images/facebook.png">
+                </a>
+            </div>
+        </div>
+        <footer>
+            <div id="logo2"></div>
+            <div id="Sage2"><h1>SAGE</h1></div>
+        </footer>
+    </div>
+    <div id="footercontainer"></div>
+
+</body>
+
+</html>

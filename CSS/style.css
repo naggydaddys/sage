@@ -1,0 +1,287 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    width: auto;
+    margin: auto;
+    background:url(images/background.jpg) center center fixed no-repeat;
+/*    background-position: center;*/
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+#navcontainer{
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.3);
+    margin-top: 50px;
+    height: 100px;
+    background-color: #666539;
+    
+}
+li {
+    display: block;
+    margin-bottom: 20px;
+    background-color: #666539;
+    width: 105px;
+    text-align: center;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.3);
+}
+#nav1{
+    float: left;
+    margin-top: 260px;
+    position: fixed;
+    left: 0;
+    
+
+}
+#logo{
+    margin-top: 25px;
+    float: left;
+    background-image: url(images/logo.png);
+    width: 55px;
+    height: 100px;
+    margin-left: 400px;
+}
+#Sage h1{
+    float: left;
+    text-align: center;
+    margin-top: 65px;
+    font-size: 70px;
+    font-family: trattatelloregular;
+    color: white;
+}
+#container{
+    width: 1024px;
+    margin: auto;   
+}
+#Home{
+    margin-top: -130px;
+    width: 1024px;
+    height: 768px;
+    background:url(images/home.png) no-repeat;
+    background-position: center;
+}
+#homecontent{
+    margin-top: 330px;
+    width: 250px;
+    float: right;
+    margin-right: 142px;
+}
+#p1{
+    text-align: center;
+    font-size: 25px;
+    font-family: trattatelloregular;
+    color: #c6b19c;
+    padding-bottom: 10px;
+}
+#p2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 28px;
+    font-family: qwigleyregular;
+    color: #c6b19c;
+}
+
+#About{
+    margin-top: -100px;
+    clear: both;
+    width: 1024px;
+    height: 810px;
+    background:url(images/about.png) no-repeat;
+}
+#aboutcontent{
+    margin-top: 320px;
+    margin-right:110px;
+    float: right;
+    width: 300px;
+    font-family: trattatelloregular;
+    color: #c6b19c;
+}
+#aboutcontent p{
+    font-size: 23px;
+}
+#aboutcontent h1{
+    font-size: 30px;
+    text-align: center;
+}
+#Menu{
+    clear: both;
+    margin-top: 50px;
+    width: 1024px;
+    height:800px;
+    background: url(images/menu.png) no-repeat;
+}
+#menuslider{
+    float: left;
+    margin-top: 140px;
+    margin-left: 180px;
+    width: 366px;
+    height: 459px;
+}
+#menuslider2{
+    margin-top: 330px;
+    margin-right: 60px;
+    float: right;
+    width:216px;
+    height:366px;
+    
+}
+
+#Art{
+    width: 1024px;
+    height:800px;
+    background: url(images/art.png) no-repeat;
+}
+#artcontent{
+    margin-right: 112px;
+    margin-top: 200px;
+    float: right;
+    width: 345px;
+    color: #c6b19c;
+    font-family: trattatelloregular;
+}
+#artcontent h1{
+    font-size: 30px;
+    text-align: center;
+    
+}
+#artcontent p{
+    font-size: 24px;
+}
+#Parties{
+    width: 1024px;
+    height:800px;
+    margin-top: -50px;
+    background: url(images/parties.png) no-repeat;
+}
+#partiescontent{
+    float: left;
+    color: #c6b19c;
+    font-family: trattatelloregular;
+    width: 370px;
+    margin-left: 150px;
+    margin-top: 180px;
+    text-align: center;
+}
+#partiescontent h1{
+    font-size: 30px;
+    text-align: center;
+    
+}
+#partiescontent p{
+    font-size: 24px;
+}
+#Contact{
+    margin-top: -75px;
+    width: 1024px;
+    height:700px;
+    background: url(images/contact.png) no-repeat;
+    background-position: center;
+}
+#contactcontent{
+    float: left;
+    color: #c6b19c;
+    font-family: trattatelloregular;
+    width: 453px;
+    margin-left: 300px;
+    margin-top: 180px;
+    text-align: center;
+    font-size: 24px;
+}
+#footercontainer{
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.3);
+    height: 100px;
+    background-color: #666539;
+}
+#logo2{
+    background-image: url(images/logo.png);
+    width: 55px;
+    height: 100px;
+    float: left;
+    margin-top: -5px;
+    margin-left: 410px;
+}
+#Sage2{
+    float: left;
+    text-align: center;
+    margin-top: -60px;
+    margin-left: 470px;
+    font-size: 70px;
+    font-family: trattatelloregular;
+    color: white;
+}
+#facebook{
+    clear: both;
+    width: 60px;
+    height: 60px;
+    padding-top: 21px;
+    margin-left: 497px;
+}
+@font-face {
+    font-family: 'trattatelloregular';
+    src: url('trattatello-webfont.eot');
+    src: url('trattatello-webfont.eot?#iefix') format('embedded-opentype'),
+         url('trattatello-webfont.woff2') format('woff2'),
+         url('trattatello-webfont.woff') format('woff'),
+         url('trattatello-webfont.ttf') format('truetype'),
+         url('trattatello-webfont.svg#trattatelloregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'qwigleyregular';
+    src: url('qwigley-regular-webfont.eot');
+    src: url('qwigley-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('qwigley-regular-webfont.woff2') format('woff2'),
+         url('qwigley-regular-webfont.woff') format('woff'),
+         url('qwigley-regular-webfont.ttf') format('truetype'),
+         url('qwigley-regular-webfont.svg#qwigleyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
